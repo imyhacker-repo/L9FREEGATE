@@ -73,6 +73,13 @@ php artisan serv
 ```
 php artisan serv --port=[YOUR PORT EX. 9000]
 ```
+    
+## Installed
+
+-   Laravel UI by Laravel
+-   Stislasimple (Package) by Arikun
+-   Stisla (Template) by Naufal Azhar
+    
 ## Authors
 
 #### Packages Stisla Simple
