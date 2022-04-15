@@ -1,65 +1,111 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a><p>
+<p align="center"><img src="https://icon-library.com/images/x-png-icon/x-png-icon-11.jpg" width="57"></p>
+<p align="center"><a href="https://laravel.com/docs/9.x/authorization#gates" target="_blank"><img src="https://www.pinclipart.com/picdir/big/31-318277_gate-clipart-icon-gate-clipart-png-hd-transparent.png" width="200"></a><p>
+    
+# L9FREEGATE
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A Framework Laravel Authentication With Gate Using Laravel.
 
-## About Laravel
+### What Is This ? 
+This is a ready made Laravel authentication framework application using Laravel 9 and Gates, to make it easier for you to authenticate using Gates.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### What Version Framework ?
+This Gates Laravel Authentication Framework will continue to be updated following the Gates Default Package and the Laravel Package itself.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### How To Install ? 
+How to install this framework is very easy, just like installing laravel as usual using Github
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+#### Git Clone
 
-## Learning Laravel
+```
+git clone https://github.com/imyhacker-repo/L9FREEGATE.git
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+```
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+#### Go To Folder
+```
+cd L9FREEGATE
+```
 
-## Laravel Sponsors
+#### Install Vendor
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+```
+composer install
+```
 
-### Premium Partners
+### Setup App
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+If file .env not found you can download or make from Official Laravel in [link](https://raw.githubusercontent.com/laravel/laravel/9.x/.env.example)
 
-## Contributing
+#### Setup ENV
+-   Key
+```
+php artisan key:generate
+```
+-   Database 
+```
+DB_CONNECTION=mysql [ CHANGE IF YOU USE ANOTHER ]
+DB_HOST=127.0.0.1
+DB_PORT=3306 [ CHANGE IF YOU USE ANOTHER ]
+DB_DATABASE=[ YOUR DATABASE NAME ]
+DB_USERNAME=[ YOUR DATABASE USERNAME ]
+DB_PASSWORD=[ YOUR DATABASE PASSWORD ]
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+```
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Setup Database 
+- Migrate
+```
+php artisan migrate
+```
+- Seeding Account From Seeder
+```
+php artisan db:seed
+```
 
-## Security Vulnerabilities
+### Run App
+- Run Local (default port 8000)
+```
+php artisan serv
+```
+- Run In Other Port 
+```
+php artisan serv --port=[YOUR PORT EX. 9000]
+```
+## Authors
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+#### Packages Stisla Simple
+- [@Arikun](https://www.github.com/imyhacker)
+
+#### Template Stisla
+- [@NaufalAzhar](https://github.com/nauvalazhar)
+## Documentation
+
+
+For Doumentation Use Gate In Here 
+[Documentation](https://suara-teknoindonesia.blogspot.com/2020/11/authorization-dengan-gates-laravel-8.html)
+
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# L9FREEGATE
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Screenshots
+
+#### Laravel Front Pages
+![Screenshot_2022-04-15_23-21-44](https://user-images.githubusercontent.com/45889833/163595898-65fa5968-43ef-4990-ba2b-79dce1493423.png)
+
+
+#### Stisla Login 
+![Screenshot_2022-04-15_23-21-59](https://user-images.githubusercontent.com/45889833/163596004-645764d4-3cfc-4bfb-ba88-8bd5af321276.png)
+
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
